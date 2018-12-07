@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap CV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css"href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <style>
+	.navbar {
+	padding: 0px;
+	margin-bottom: 0px;
+	}
+	.col-md-6{
+	text-align:center;
+	}
+	
+	
+  </style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse"> <!--- Navigation Bar Beginning -->
+		<div class="Container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand"> Experience... </a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="education.html">Education</a></li>
+					<li class="active"><a href="experience.html">Experience</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav> <!--- Navigation Bar End-->
+	
+
+<!--- Carousel-->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ol>
+
+	  <div class="carousel-inner">
+		<div class="item active">
+		  <img src="img/experience1.jpg" alt="exp1" style="width:100%">
+		</div>
+
+		<div class="item">
+		  <img src="img/experience2.jpg" alt="exp2" style="width:100%">
+		</div>
+
+		<div class="item">
+		  <img src="img/experience3.jpg" alt="exp3" style="width:100%">
+		</div>
+	  </div>
+	  
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!--- End of Carousel-->	
+	
+	<div class="jumbotron" jumbotron style="margin:0">
+		<h2 class="text-center"><Strong>Experience</Strong></h2> 
+		<p class ="text-center">Please See below for more info on my experience.</p>
+	</div>
+	
+	<div class="containter">
+	<div id="p" class="container-fluid" style="background-color: #F6DCA8">
+		<h2 class="text-center"><a href="https://aib.ie/"  target="_blank" style="color:black" ><Strong>Allied Irish Banks</Strong></a></h2> 
+		<button type="button" class="btn btn-secondary center-block" style="background-color:#EDA71D"  data-toggle="collapse" data-target="#AIB">More Info</button>
+		<div id="AIB" class="collapse">
+			<h2 class="text-center" style="color:grey"> Information Security - Project Management </h2>
+			<center><a href="https://aib.ie/"  target="_blank"><img src="img/AIB1.jpg" alt="Aib" style="height:100px"></a></center>
+			<h4 class="text-center" style="color:grey"> Burlington Road, Dublin, Ireland </h4>
+			<p class ="text-center" style="color:grey">January 2018 - August 2018</p>
+		 </div>
+		 <br> 
+	</div>
+	
+	<div id="p" class="container-fluid" style="background-color: #F6E3BF">
+		<h2 class="text-center" ><a href="https://www.cleanvibes.com/"  target="_blank" style="color:black" ><Strong>Clean Vibes</Strong></a></h2>
+		<button type="button" class="btn btn-secondary center-block" style="background-color:#F2C368" data-toggle="collapse" data-target="#cleanVibes">More Info</button>
+		<div id="cleanVibes" class="collapse">
+			<h2 class="text-center" style="color:grey"> Event Waste & Recycling Management </h2>
+			<center><img src="img/cleanvibes.png" alt="cleanvibes" style="height:100px"></center>
+			<h4 class="text-center" style="color:grey"> Vancouver, BC, Canada </h4>
+			<p class ="text-center" style="color:grey">May 2016 - August 2016</p>
+		 </div>
+		 <br>
+	</div>
+	
+	<div id="p" class="container-fluid" style="background-color: #F6EFE3">
+		<h2 class="text-center"><a href="http://www.castlegc.ie/"  target="_blank" style="color:black" ><Strong>Castle Golf Club</Strong></a></h2>
+		<button type="button" class="btn btn-secondary center-block" style="background-color:#F6DCA8"" data-toggle="collapse" data-target="#cgc">More Info</button>
+		<div id="cgc" class="collapse">
+			<h2 class="text-center" style="color:grey"> Senior Bar Man  </h2>
+			<center><img src="img/cgc.jpg" alt="cgc" style="height:100px"></center>
+			<h4 class="text-center" style="color:grey"> Rathfarnhan, Dublin, Ireland </h4>
+			<p class ="text-center" style="color:grey">October 2013 - Present</p>
+		 </div>
+		<br>
+	</div>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+			<div class="col-md-6">
+				<h3><strong>About Me</strong></h3>
+				<p>Please Click on the <a href="about.html">Link</a> to find more information out about me and my interests.</p>
+				  <i style="font-size:24px" class="fa"><a href="https://www.linkedin.com/in/conor-mcdaid-476a52119/" target="_blank">&#xf08c;</a></i>
+				  <i style="font-size:24px" class="fa"><a href="https://www.youtube.com/user/Mcdaid2011" target="_blank" style="color:red">&#xf166;</a></i>
+				  <i style="font-size:24px" class="fa"><a href="https://github.com/Enterprise-Performance-Architecture/enterprise-performance-architecture-Conmcdaid22" target="_blank" style="color:black">&#xf09b;</a></i>
+				  <i style="font-size:24px" class="fa"><a href="https://www.instagram.com/conjmcdaid94/" target="_blank" Style="color:#8a3ab9">&#xf16d;</a></i>
+				  <i style="font-size:24px" class="fa"><a href="https://www.facebook.com/conor.mcdaid.9" target="_blank">&#xf082;</a></i>
+		
+			</div>
+
+			<div class="col-md-6">
+				<h3><strong>Contact Info</strong></h3>
+				<p><i style="font-size:20px" class="fa">&#xf0e0;</i>  Conor.mcdaid94@gmail.com</p>
+				<p><i style="font-size:24px" class="fa">&#xf2a0;</i>  0862661839</p>
+			</div>
+			</div>
+	  </div>
+	</footer>
+
+	
+</body>
+</html>

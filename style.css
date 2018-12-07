@@ -1,0 +1,30 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	padding: 0px;
+	margin-bottom: 0px;
+	}
+
+footer
+	{
+	background-color: #eee; padding: 0px;
+	}
+    ul, li{
+	list-style-type: none;}
+       .list{margin-top: 15px;}
+
+.jumbotron-fluid {
+    margin-bottom: 0px;
+    background-image: url(img/NewYork.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.jumbotron-fluid h2{
+    color: #fff;
+}
+
